@@ -44,20 +44,21 @@ function App() {
           ecellLogo={ecell}
         />
         <main className="text-yellow-500 bg-white flex flex-col items-center border-b-2 px-20"> 
-          <div className="text-6xl font-bold pt-20 text-black">
+          <div className="font-bold pt-20 text-black">
             <img
+              className="h-40"
               src={titleImage}
             />
           </div>
-          <div className="text-4xl font-bold">
+          <div className="text-2xl font-bold">
             An E-Cell NIT Trichy Initiative
           </div>
-          <div className="text-2xl text-black">
-            Where we enable budding early stage startups and our very own institute students to connect 
+          <div className="text-xl text-black">
+            Where we enable budding early stage startups and our very own institute students to <p className="inline font-bold text-yellow-500">connect</p>
           </div>
           
         
-          <div className="py-20 flex flex-row  items-center">
+          <div className="pb  -10 flex flex-row  items-center">
             <div>
               <img
                 src={exploreImage1}
